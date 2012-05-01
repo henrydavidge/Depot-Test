@@ -1,0 +1,11 @@
+Product.delete_all
+
+Product.create(:title => 'Literally shit',
+	      :description =>
+		%{<p>
+			As I said, this is literally <em>feces</em>
+		  </p>
+		},
+		:image_url => 'ruby.jpg', 
+	      :price => 98.76)
+
